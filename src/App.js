@@ -47,11 +47,6 @@ import Register from './Register';
 
 const App = () => {
 
-  const navigateTo = (path) => {
-    window.location.href = path;
-  };
-
-
 
   return (
     <Router>
