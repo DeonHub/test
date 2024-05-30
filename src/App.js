@@ -110,7 +110,7 @@ const App = () => {
 
         <Route path={'/admin/notifications'} element={<Notifications />} /> */}
 
-        <Route path={'/*'} element={<NotFound />} />
+        {/* <Route path={'/*'} element={<NotFound />} /> */}
 
       </Routes>
     </Router>
